@@ -2,16 +2,16 @@
 
 // The maximum value of k to be tested in the cross validation
 // as a percentage of the series size.
-#define ORDER_OF_MAGNITUDE_K 0.025
+#define ORDER_OF_MAGNITUDE_K 0.035
 
 // The maximum value of l to be tested in the cross validation
 // as a percentage of the series size.
-#define ORDER_OF_MAGNITUDE_L 0.045
+#define ORDER_OF_MAGNITUDE_L 0.05
 
 // Minimum size of the training set in percentage of observations
 // The optimum k is increasing with the number of observations; that's why we use don't
 // perform cross-validation in training sets being small relative to the size of the original series.
-#define PER_MIN_SIZE_TRAIN_SET 0.85
+#define PER_MIN_SIZE_TRAIN_SET 0.80
 
 // Number of observations among the last ones which are excluded from the training process
 // in order to avoid overfitting.
